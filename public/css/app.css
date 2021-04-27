@@ -16254,5 +16254,56 @@ body .carousel-inner {
     font-size: 80%;
   }
 }
+@media (min-width: 768px) and (max-width: 911px) {
+  header #monCarousel {
+    display: flex;
+    justify-content: center;
+  }
+  header #monCarousel .span {
+    height: 80%;
+    margin-top: -10%;
+  }
+  header #monCarousel .span .lesboutons button {
+    font-size: 80%;
+  }
+}
+@media (min-width: 1024px) {
+  section .ourstory .titre .triangle1 img {
+    margin-left: -11%;
+  }
+  section .ourstory .titre .triangle2 img {
+    margin-left: 11%;
+  }
+  section .ourstory .menu .boxmenu button {
+    height: 100px;
+    width: 150%;
+  }
+  section .ourstory .menu .boxmenu button i {
+    color: gray;
+    font-size: 300%;
+  }
+  section .ourstory .menu .boxmenu button h3 {
+    font-size: 20px;
+  }
+  section .chefs {
+    height: 600px;
+    background-color: #060404;
+  }
+  section .chefs .meetchef {
+    margin-top: 5%;
+  }
+  section .chefs .pchef {
+    background-color: #060404;
+  }
+  section .chefs .imgchef {
+    margin-top: 5%;
+  }
+  section .chefs .imgchef div {
+    margin: 2%;
+  }
+  section .chefs .imgchef div img {
+    border-bottom: 1px solid gray;
+  }
+}
 
 /*# sourceMappingURL=app.css.map */

@@ -1,0 +1,54 @@
+@media (min-width:1024px){
+    section{
+        .ourstory{
+            .titre{
+                .triangle1{
+                    img{
+                        margin-left: -11%;
+                    }
+                }
+                .titrelogo{
+                }
+                .triangle2{
+                    img{
+                        margin-left: 11%;
+                    }
+                }
+            }
+            .menu{
+                .boxmenu{
+                    button{
+                        height: 100px;
+                        width: 150%;
+                        i{
+                            color: gray;
+                            font-size: 300%;
+                        }
+                        h3{
+                            font-size: 20px;
+                        }
+                    }
+                }
+            }
+        }
+        .chefs{
+            height: 600px;
+            background-color: #060404;
+            .meetchef{
+                margin-top: 5%;
+            }
+            .pchef{
+                background-color: #060404;
+            }
+            .imgchef{
+                margin-top: 5%;
+                div{
+                    margin: 2%;
+                    img{
+                        border-bottom: 1px solid gray;
+                    }
+                }
+            }
+        }
+    }
+}
