@@ -115,3 +115,15 @@
         width: 100% !important;
     }
 }
+@media (min-width:1023px) and (max-width:1135px){
+    .imgchef{
+        display: flex;
+        margin-top: 10% !important;
+        flex-wrap: nowrap !important;
+        div{
+            img{
+                width: 80%;
+            }
+        }
+    }
+}
