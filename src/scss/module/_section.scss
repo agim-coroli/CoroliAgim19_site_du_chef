@@ -52,3 +52,66 @@
         }
     }
 }
+@media (min-width:830px) and (max-width:1200px){
+    .chefs{
+        background-color: #060404;
+        .imgchef{
+            flex-wrap: wrap;
+        }
+    }
+}
+@media (min-width:426px) and (max-width:829px){
+    .chefs{
+        background-color: #060404;
+        .imgchef{
+            flex-wrap: wrap;
+        }
+    }
+}
+@media (max-width:426px){
+    .ourstory{
+        width: 458px !important;
+        .titre{
+            .triangle1{
+                img{
+                    display: none;
+                }
+            }
+            .triangle2{
+                img{
+                    display: none;
+                }
+            }
+        }
+    }
+    .chefs{
+        width: 458px !important;
+        background-size: contain;
+        background-color: #060404;
+        .imgchef{
+            flex-wrap: wrap;
+        }
+    }
+}
+
+@media (min-width:425px) and (max-width:768px){
+    .ourstory{
+        .titre{
+            .triangle1{
+                img{
+                    display: none;
+                }
+            }
+            .triangle2{
+                img{
+                    display: none;
+                }
+            }
+        }
+    }
+}
+@media (min-width:320px) and (max-width:462px){
+    .ourstory{
+        width: 100% !important;
+    }
+}

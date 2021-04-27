@@ -16267,6 +16267,16 @@ body .carousel-inner {
     font-size: 80%;
   }
 }
+@media (max-width: 426px) {
+  #monCarousel {
+    width: 500px;
+  }
+}
+@media (max-width: 426px) {
+  .dent {
+    width: 500px;
+  }
+}
 @media (min-width: 1024px) {
   section .ourstory .titre .triangle1 img {
     margin-left: -11%;
@@ -16303,6 +16313,55 @@ body .carousel-inner {
   }
   section .chefs .imgchef div img {
     border-bottom: 1px solid gray;
+  }
+}
+@media (min-width: 830px) and (max-width: 1200px) {
+  .chefs {
+    background-color: #060404;
+  }
+  .chefs .imgchef {
+    flex-wrap: wrap;
+  }
+}
+@media (min-width: 426px) and (max-width: 829px) {
+  .chefs {
+    background-color: #060404;
+  }
+  .chefs .imgchef {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 426px) {
+  .ourstory {
+    width: 458px !important;
+  }
+  .ourstory .titre .triangle1 img {
+    display: none;
+  }
+  .ourstory .titre .triangle2 img {
+    display: none;
+  }
+
+  .chefs {
+    width: 458px !important;
+    background-size: contain;
+    background-color: #060404;
+  }
+  .chefs .imgchef {
+    flex-wrap: wrap;
+  }
+}
+@media (min-width: 425px) and (max-width: 768px) {
+  .ourstory .titre .triangle1 img {
+    display: none;
+  }
+  .ourstory .titre .triangle2 img {
+    display: none;
+  }
+}
+@media (min-width: 320px) and (max-width: 462px) {
+  .ourstory {
+    width: 100% !important;
   }
 }
 
