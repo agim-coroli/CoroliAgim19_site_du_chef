@@ -16345,6 +16345,12 @@ body .carousel-inner {
     text-align: center;
     height: 25%;
   }
+  section .ourstory .undermenu img:first-child {
+    margin-left: -1.5%;
+  }
+  section .ourstory .undermenu img:last-child {
+    margin-right: -1.5%;
+  }
   section .chefs {
     height: 600px;
     background-color: #060404;
@@ -16904,6 +16910,14 @@ section .testimonial .logocarte .row .col-sm-2 img {
     border-radius: 20px;
   }
 }
+span, h2 {
+  font-family: "Courgette", cursive;
+}
+
+span {
+  font-size: 130%;
+}
+
 .dent2 {
   background-color: black;
   background-image: url(../img/footer_bottom_decoration_img.png);

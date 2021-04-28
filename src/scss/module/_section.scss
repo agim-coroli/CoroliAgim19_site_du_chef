@@ -94,6 +94,14 @@
                     }
                 }
             }
+            .undermenu{
+                img:first-child{
+                    margin-left: -1.5%;
+                }
+                img:last-child{
+                    margin-right: -1.5%;
+                }
+            }
         }
         .chefs{
             height: 600px;
