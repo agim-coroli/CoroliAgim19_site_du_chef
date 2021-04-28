@@ -16,16 +16,80 @@
                 }
             }
             .menu{
-                .boxmenu{
-                    button{
-                        height: 100px;
-                        width: 150%;
-                        i{
-                            color: gray;
-                            font-size: 300%;
+                div{
+                    div{
+                        .nav{
+                            .nav-link{
+                                div{
+                                    text-align: center;
+                                    height: 100px;
+                                    i{
+                                        font-size: 350%;
+                                        color: rgb(192, 190, 190);
+                                    }
+                                    i:hover{
+                                        color: red;
+                                        width: 100%;
+                                    }
+                                    i:active{
+                                        background-color:white ;
+                                    }
+                                    span{
+                                        font-size: 150%;
+                                        color: rgb(54, 54, 54);
+                                    }
+                                }
+                            }
+                            .nav-link:hover{
+                                border-right: red 5px solid;
+                                background: none;
+                            }
+                            .nav-link:active{
+                                background-color: white;
+                            }
                         }
-                        h3{
-                            font-size: 20px;
+                        .nav-pills .nav-link.active, .nav-pills .show > .nav-link{
+                            background-color: white;
+                        }
+                    }
+                    .col-10{
+                        .tab-content{
+                            .tab-pane{
+                                .row{
+                                    .col-sm-6{
+                                        display: flex;
+                                        justify-content: space-around;
+                                        .card{
+                                            border: none;
+                                            background-color: #f8f9fa;
+                                            border-bottom: 1px solid rgba(0, 0, 0, 0.26);
+                                            .card-body{
+                                                display: flex;
+                                                align-items: center;
+                                                .imgmenu{
+                                                    img{
+                                                        width: 75%;
+                                                    }
+                                                }
+                                                .doublep{
+                                                    font-size: 90%;
+                                                    width: 60%;
+                                                    margin-left: -5%;
+                                                    .firstp{
+                                                        margin-bottom: 0;
+                                                    }
+                                                }
+                                                .dollar{
+                                                    background-color: rgb(199, 195, 195);
+                                                    width:15%;
+                                                    text-align: center;
+                                                    height: 25%;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
                         }
                     }
                 }
@@ -46,6 +110,335 @@
                     margin: 2%;
                     img{
                         border-bottom: 1px solid gray;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 1024px){
+    .menu{
+        div{
+            div{
+                .nav{
+                    .nav-link{
+                        div{
+                            text-align: center;
+                            height: 100px;
+                            i{
+                                font-size: 350%;
+                                color: rgb(192, 190, 190);
+                            }
+                            i:hover{
+                                color: red;
+                                width: 100%;
+                            }
+                            i:active{
+                                background-color:white ;
+                            }
+                            span{
+                                font-size: 150%;
+                                color: rgb(54, 54, 54);
+                            }
+                        }
+                    }
+                    .nav-link:hover{
+                        border-right: red 5px solid;
+                        background: none;
+                    }
+                    .nav-link:active{
+                        background-color: white;
+                    }
+                }
+                .nav-pills .nav-link.active, .nav-pills .show > .nav-link{
+                    background-color: white;
+                }
+            }
+            .col-10{
+                .tab-content{
+                    .tab-pane{
+                        .row{
+                            .col-sm-6{
+                                display: flex;
+                                justify-content: space-around;
+                                .card{
+                                    border: none;
+                                    background-color: #f8f9fa;
+                                    border-bottom: 1px solid rgba(0, 0, 0, 0.26);
+                                    .card-body{
+                                        display: flex;
+                                        align-items: center;
+                                        .imgmenu{
+                                            img{
+                                                width: 75%;
+                                            }
+                                        }
+                                        .doublep{
+                                            font-size: 90%;
+                                            width: 60%;
+                                            margin-left: -5%;
+                                            .firstp{
+                                                margin-bottom: 0;
+                                            }
+                                        }
+                                        .dollar{
+                                            background-color: rgb(199, 195, 195);
+                                            width:15%;
+                                            text-align: center;
+                                            height: 25%;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width:992px){
+    .menu{
+        div{
+            div{
+                .nav{
+                    .nav-link{
+                        div{
+                            text-align: center;
+                            height: 100px;
+                            i{
+                                font-size: 350%;
+                                color: rgb(192, 190, 190);
+                            }
+                            i:hover{
+                                color: red;
+                                width: 100%;
+                            }
+                            i:active{
+                                background-color:white ;
+                            }
+                            span{
+                                font-size: 150%;
+                                color: rgb(54, 54, 54);
+                            }
+                        }
+                    }
+                    .nav-link:hover{
+                        border-right: red 5px solid;
+                        background: none;
+                    }
+                    .nav-link:active{
+                        background-color: white;
+                    }
+                }
+                .nav-pills .nav-link.active, .nav-pills .show > .nav-link{
+                    background-color: white;
+                }
+            }
+            .col-10{
+                .tab-content{
+                    .tab-pane{
+                        .row{
+                            .col-sm-6{
+                                display: flex;
+                                justify-content: space-around;
+                                .card{
+                                    border: none;
+                                    background-color: #f8f9fa;
+                                    border-bottom: 1px solid rgba(0, 0, 0, 0.26);
+                                    .card-body{
+                                        display: flex;
+                                        align-items: center;
+                                        .imgmenu{
+                                            img{
+                                                width: 75%;
+                                            }
+                                        }
+                                        .doublep{
+                                            font-size: 50%;
+                                            width: 60%;
+                                            margin-left: -5%;
+                                            .firstp{
+                                                margin-bottom: 0;
+                                            }
+                                        }
+                                        .dollar{
+                                            background-color: rgb(199, 195, 195);
+                                            width:15%;
+                                            text-align: center;
+                                            height: 25%;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width:768px){
+    .menu{
+        div{
+            div{
+                .nav{
+                    .nav-link{
+                        div{
+                            text-align: center;
+                            height: 100px;
+                            i{
+                                font-size: 200%;
+                                color: rgb(192, 190, 190);
+                            }
+                            i:hover{
+                                color: red;
+                                width: 100%;
+                            }
+                            i:active{
+                                background-color:white ;
+                            }
+                            span{
+                                font-size: 100%;
+                                color: rgb(54, 54, 54);
+                            }
+                        }
+                    }
+                    .nav-link:hover{
+                        border-right: red 5px solid;
+                        background: none;
+                    }
+                    .nav-link:active{
+                        background-color: white;
+                    }
+                }
+                .nav-pills .nav-link.active, .nav-pills .show > .nav-link{
+                    background-color: white;
+                }
+            }
+            .col-10{
+                .tab-content{
+                    .tab-pane{
+                        .row{
+                            .col-sm-6{
+                                display: flex;
+                                justify-content: space-around;
+                                .card{
+                                    border: none;
+                                    background-color: #f8f9fa;
+                                    border-bottom: 1px solid rgba(0, 0, 0, 0.26);
+                                    .card-body{
+                                        display: flex;
+                                        align-items: center;
+                                        width: 120%;
+                                        .imgmenu{
+                                            img{
+                                                width: 75%;
+                                            }
+                                        }
+                                        .doublep{
+                                            font-size: 40%;
+                                            width: 60%;
+                                            margin-left: -5%;
+                                            .firstp{
+                                                margin-bottom: 0;
+                                            }
+                                        }
+                                        .dollar{
+                                            background-color: rgb(199, 195, 195);
+                                            width:15%;
+                                            text-align: center;
+                                            height: 25%;
+                                            font-size: 50%;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width:577px){
+    .menu{
+        div{
+            div{
+                .nav{
+                    .nav-link{
+                        div{
+                            text-align: center;
+                            height: 100px;
+                            i{
+                                font-size: 200%;
+                                color: rgb(192, 190, 190);
+                            }
+                            i:hover{
+                                color: red;
+                                width: 100%;
+                            }
+                            i:active{
+                                background-color:white ;
+                            }
+                            span{
+                                font-size: 100%;
+                                color: rgb(54, 54, 54);
+                            }
+                        }
+                    }
+                    .nav-link:hover{
+                        border-right: red 5px solid;
+                        background: none;
+                    }
+                    .nav-link:active{
+                        background-color: white;
+                    }
+                }
+                .nav-pills .nav-link.active, .nav-pills .show > .nav-link{
+                    background-color: white;
+                }
+            }
+            .col-10{
+                .tab-content{
+                    .tab-pane{
+                        .row{
+                            .col-sm-6{
+                                display: flex;
+                                justify-content: space-around;
+                                .card{
+                                    border: none;
+                                    background-color: #f8f9fa;
+                                    border-bottom: 1px solid rgba(0, 0, 0, 0.26);
+                                    .card-body{
+                                        display: flex;
+                                        align-items: center;
+                                        width: 120%;
+                                        .imgmenu{
+                                            width: 30%;
+                                            img{
+                                                width: 50%;
+                                            }
+                                        }
+                                        .doublep{
+                                            font-size: 50%;
+                                            width: 30%;
+                                            margin-left: -5%;
+                                            .firstp{
+                                                margin-bottom: 0;
+                                            }
+                                        }
+                                        .dollar{
+                                            background-color: rgb(199, 195, 195);
+                                            width:10%;
+                                            text-align: center;
+                                            height: 30%;
+                                            font-size: 80%;
+                                        }
+                                    }
+                                }
+                            }
+                        }
                     }
                 }
             }
@@ -124,6 +517,13 @@
             img{
                 width: 80%;
             }
+        }
+    }
+}
+@media (max-width:769px){
+    .undermenu{
+        img{
+            display: none;
         }
     }
 }

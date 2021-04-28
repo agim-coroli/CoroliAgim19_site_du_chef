@@ -16284,16 +16284,64 @@ body .carousel-inner {
   section .ourstory .titre .triangle2 img {
     margin-left: 11%;
   }
-  section .ourstory .menu .boxmenu button {
+  section .ourstory .menu div div .nav .nav-link div {
+    text-align: center;
     height: 100px;
-    width: 150%;
   }
-  section .ourstory .menu .boxmenu button i {
-    color: gray;
-    font-size: 300%;
+  section .ourstory .menu div div .nav .nav-link div i {
+    font-size: 350%;
+    color: #c0bebe;
   }
-  section .ourstory .menu .boxmenu button h3 {
-    font-size: 20px;
+  section .ourstory .menu div div .nav .nav-link div i:hover {
+    color: red;
+    width: 100%;
+  }
+  section .ourstory .menu div div .nav .nav-link div i:active {
+    background-color: white;
+  }
+  section .ourstory .menu div div .nav .nav-link div span {
+    font-size: 150%;
+    color: #363636;
+  }
+  section .ourstory .menu div div .nav .nav-link:hover {
+    border-right: red 5px solid;
+    background: none;
+  }
+  section .ourstory .menu div div .nav .nav-link:active {
+    background-color: white;
+  }
+  section .ourstory .menu div div .nav-pills .nav-link.active, section .ourstory .menu div div .nav-pills .show > .nav-link {
+    background-color: white;
+  }
+  section .ourstory .menu div .col-10 .tab-content .tab-pane .row .col-sm-6 {
+    display: flex;
+    justify-content: space-around;
+  }
+  section .ourstory .menu div .col-10 .tab-content .tab-pane .row .col-sm-6 .card {
+    border: none;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.26);
+  }
+  section .ourstory .menu div .col-10 .tab-content .tab-pane .row .col-sm-6 .card .card-body {
+    display: flex;
+    align-items: center;
+  }
+  section .ourstory .menu div .col-10 .tab-content .tab-pane .row .col-sm-6 .card .card-body .imgmenu img {
+    width: 75%;
+  }
+  section .ourstory .menu div .col-10 .tab-content .tab-pane .row .col-sm-6 .card .card-body .doublep {
+    font-size: 90%;
+    width: 60%;
+    margin-left: -5%;
+  }
+  section .ourstory .menu div .col-10 .tab-content .tab-pane .row .col-sm-6 .card .card-body .doublep .firstp {
+    margin-bottom: 0;
+  }
+  section .ourstory .menu div .col-10 .tab-content .tab-pane .row .col-sm-6 .card .card-body .dollar {
+    background-color: #c7c3c3;
+    width: 15%;
+    text-align: center;
+    height: 25%;
   }
   section .chefs {
     height: 600px;
@@ -16313,6 +16361,257 @@ body .carousel-inner {
   }
   section .chefs .imgchef div img {
     border-bottom: 1px solid gray;
+  }
+}
+@media (max-width: 1024px) {
+  .menu div div .nav .nav-link div {
+    text-align: center;
+    height: 100px;
+  }
+  .menu div div .nav .nav-link div i {
+    font-size: 350%;
+    color: #c0bebe;
+  }
+  .menu div div .nav .nav-link div i:hover {
+    color: red;
+    width: 100%;
+  }
+  .menu div div .nav .nav-link div i:active {
+    background-color: white;
+  }
+  .menu div div .nav .nav-link div span {
+    font-size: 150%;
+    color: #363636;
+  }
+  .menu div div .nav .nav-link:hover {
+    border-right: red 5px solid;
+    background: none;
+  }
+  .menu div div .nav .nav-link:active {
+    background-color: white;
+  }
+  .menu div div .nav-pills .nav-link.active, .menu div div .nav-pills .show > .nav-link {
+    background-color: white;
+  }
+  .menu div .col-10 .tab-content .tab-pane .row .col-sm-6 {
+    display: flex;
+    justify-content: space-around;
+  }
+  .menu div .col-10 .tab-content .tab-pane .row .col-sm-6 .card {
+    border: none;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.26);
+  }
+  .menu div .col-10 .tab-content .tab-pane .row .col-sm-6 .card .card-body {
+    display: flex;
+    align-items: center;
+  }
+  .menu div .col-10 .tab-content .tab-pane .row .col-sm-6 .card .card-body .imgmenu img {
+    width: 75%;
+  }
+  .menu div .col-10 .tab-content .tab-pane .row .col-sm-6 .card .card-body .doublep {
+    font-size: 90%;
+    width: 60%;
+    margin-left: -5%;
+  }
+  .menu div .col-10 .tab-content .tab-pane .row .col-sm-6 .card .card-body .doublep .firstp {
+    margin-bottom: 0;
+  }
+  .menu div .col-10 .tab-content .tab-pane .row .col-sm-6 .card .card-body .dollar {
+    background-color: #c7c3c3;
+    width: 15%;
+    text-align: center;
+    height: 25%;
+  }
+}
+@media (max-width: 992px) {
+  .menu div div .nav .nav-link div {
+    text-align: center;
+    height: 100px;
+  }
+  .menu div div .nav .nav-link div i {
+    font-size: 350%;
+    color: #c0bebe;
+  }
+  .menu div div .nav .nav-link div i:hover {
+    color: red;
+    width: 100%;
+  }
+  .menu div div .nav .nav-link div i:active {
+    background-color: white;
+  }
+  .menu div div .nav .nav-link div span {
+    font-size: 150%;
+    color: #363636;
+  }
+  .menu div div .nav .nav-link:hover {
+    border-right: red 5px solid;
+    background: none;
+  }
+  .menu div div .nav .nav-link:active {
+    background-color: white;
+  }
+  .menu div div .nav-pills .nav-link.active, .menu div div .nav-pills .show > .nav-link {
+    background-color: white;
+  }
+  .menu div .col-10 .tab-content .tab-pane .row .col-sm-6 {
+    display: flex;
+    justify-content: space-around;
+  }
+  .menu div .col-10 .tab-content .tab-pane .row .col-sm-6 .card {
+    border: none;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.26);
+  }
+  .menu div .col-10 .tab-content .tab-pane .row .col-sm-6 .card .card-body {
+    display: flex;
+    align-items: center;
+  }
+  .menu div .col-10 .tab-content .tab-pane .row .col-sm-6 .card .card-body .imgmenu img {
+    width: 75%;
+  }
+  .menu div .col-10 .tab-content .tab-pane .row .col-sm-6 .card .card-body .doublep {
+    font-size: 50%;
+    width: 60%;
+    margin-left: -5%;
+  }
+  .menu div .col-10 .tab-content .tab-pane .row .col-sm-6 .card .card-body .doublep .firstp {
+    margin-bottom: 0;
+  }
+  .menu div .col-10 .tab-content .tab-pane .row .col-sm-6 .card .card-body .dollar {
+    background-color: #c7c3c3;
+    width: 15%;
+    text-align: center;
+    height: 25%;
+  }
+}
+@media (max-width: 768px) {
+  .menu div div .nav .nav-link div {
+    text-align: center;
+    height: 100px;
+  }
+  .menu div div .nav .nav-link div i {
+    font-size: 200%;
+    color: #c0bebe;
+  }
+  .menu div div .nav .nav-link div i:hover {
+    color: red;
+    width: 100%;
+  }
+  .menu div div .nav .nav-link div i:active {
+    background-color: white;
+  }
+  .menu div div .nav .nav-link div span {
+    font-size: 100%;
+    color: #363636;
+  }
+  .menu div div .nav .nav-link:hover {
+    border-right: red 5px solid;
+    background: none;
+  }
+  .menu div div .nav .nav-link:active {
+    background-color: white;
+  }
+  .menu div div .nav-pills .nav-link.active, .menu div div .nav-pills .show > .nav-link {
+    background-color: white;
+  }
+  .menu div .col-10 .tab-content .tab-pane .row .col-sm-6 {
+    display: flex;
+    justify-content: space-around;
+  }
+  .menu div .col-10 .tab-content .tab-pane .row .col-sm-6 .card {
+    border: none;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.26);
+  }
+  .menu div .col-10 .tab-content .tab-pane .row .col-sm-6 .card .card-body {
+    display: flex;
+    align-items: center;
+    width: 120%;
+  }
+  .menu div .col-10 .tab-content .tab-pane .row .col-sm-6 .card .card-body .imgmenu img {
+    width: 75%;
+  }
+  .menu div .col-10 .tab-content .tab-pane .row .col-sm-6 .card .card-body .doublep {
+    font-size: 40%;
+    width: 60%;
+    margin-left: -5%;
+  }
+  .menu div .col-10 .tab-content .tab-pane .row .col-sm-6 .card .card-body .doublep .firstp {
+    margin-bottom: 0;
+  }
+  .menu div .col-10 .tab-content .tab-pane .row .col-sm-6 .card .card-body .dollar {
+    background-color: #c7c3c3;
+    width: 15%;
+    text-align: center;
+    height: 25%;
+    font-size: 50%;
+  }
+}
+@media (max-width: 577px) {
+  .menu div div .nav .nav-link div {
+    text-align: center;
+    height: 100px;
+  }
+  .menu div div .nav .nav-link div i {
+    font-size: 200%;
+    color: #c0bebe;
+  }
+  .menu div div .nav .nav-link div i:hover {
+    color: red;
+    width: 100%;
+  }
+  .menu div div .nav .nav-link div i:active {
+    background-color: white;
+  }
+  .menu div div .nav .nav-link div span {
+    font-size: 100%;
+    color: #363636;
+  }
+  .menu div div .nav .nav-link:hover {
+    border-right: red 5px solid;
+    background: none;
+  }
+  .menu div div .nav .nav-link:active {
+    background-color: white;
+  }
+  .menu div div .nav-pills .nav-link.active, .menu div div .nav-pills .show > .nav-link {
+    background-color: white;
+  }
+  .menu div .col-10 .tab-content .tab-pane .row .col-sm-6 {
+    display: flex;
+    justify-content: space-around;
+  }
+  .menu div .col-10 .tab-content .tab-pane .row .col-sm-6 .card {
+    border: none;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.26);
+  }
+  .menu div .col-10 .tab-content .tab-pane .row .col-sm-6 .card .card-body {
+    display: flex;
+    align-items: center;
+    width: 120%;
+  }
+  .menu div .col-10 .tab-content .tab-pane .row .col-sm-6 .card .card-body .imgmenu {
+    width: 30%;
+  }
+  .menu div .col-10 .tab-content .tab-pane .row .col-sm-6 .card .card-body .imgmenu img {
+    width: 50%;
+  }
+  .menu div .col-10 .tab-content .tab-pane .row .col-sm-6 .card .card-body .doublep {
+    font-size: 50%;
+    width: 30%;
+    margin-left: -5%;
+  }
+  .menu div .col-10 .tab-content .tab-pane .row .col-sm-6 .card .card-body .doublep .firstp {
+    margin-bottom: 0;
+  }
+  .menu div .col-10 .tab-content .tab-pane .row .col-sm-6 .card .card-body .dollar {
+    background-color: #c7c3c3;
+    width: 10%;
+    text-align: center;
+    height: 30%;
+    font-size: 80%;
   }
 }
 @media (min-width: 830px) and (max-width: 1200px) {
@@ -16372,6 +16671,11 @@ body .carousel-inner {
   }
   .imgchef div img {
     width: 80%;
+  }
+}
+@media (max-width: 769px) {
+  .undermenu img {
+    display: none;
   }
 }
 section .blocBook .trianglebook .triangleG {
