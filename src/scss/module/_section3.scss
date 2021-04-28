@@ -1,0 +1,41 @@
+.section3{
+    height: 600px;
+    .ourcontact{
+        width: 25% !important;
+        height: 60%;
+        border-radius: 20px;
+        .card{
+            margin-top: 2%;
+            height: 95%;
+            width: 95%;
+            border: none;
+            div{
+                justify-content: center;
+                display: flex;
+                flex-direction: column;
+                height: 50%;
+                border-bottom: 1px solid white;
+                i{
+                    font-size: 40px;
+                }
+                p{
+                    margin-bottom: 0;
+                }
+            }
+            div:last-child{
+                border: none;
+            }
+        }
+    }
+}
+
+@media (max-width:723px){
+    .section3{
+        .ourcontact{
+            width: 50% !important;
+            .card{
+                border-radius: 20px;
+            }
+        }
+    }
+}
