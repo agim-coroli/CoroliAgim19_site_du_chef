@@ -16764,5 +16764,9 @@ footer .rangéfooter .lignefooter3 .boutonfooter a {
     font-size: 50% !important;
   }
 }
+.underfooter {
+  background-color: red;
+  height: 80px;
+}
 
 /*# sourceMappingURL=app.css.map */
