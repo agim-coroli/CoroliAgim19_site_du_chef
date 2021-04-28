@@ -16514,5 +16514,50 @@ section .blocBook .trianglbas .trianglebasD {
     align-items: center;
   }
 }
+section .testimonial {
+  background-image: url(../img/testimonials_background.jpg);
+  height: 500px;
+  background-position: left;
+}
+section .testimonial .logocarte {
+  width: 70%;
+}
+section .testimonial .logocarte .row .col-sm-4 .card {
+  width: 330%;
+  padding: 0;
+  border: 1px solid white;
+  background: transparent;
+  margin-left: 13%;
+}
+section .testimonial .logocarte .row .col-sm-4 .card .card-body h5 {
+  margin: 0;
+  color: white;
+}
+section .testimonial .logocarte .row .col-sm-4 .card .card-body p {
+  margin: 0;
+  color: white;
+}
+section .testimonial .logocarte .row .col-sm-2 img {
+  width: 10em;
+  border: 5px solid white;
+}
+
+@media (max-width: 1100px) {
+  .col-sm-2 img {
+    display: none;
+  }
+}
+@media (max-width: 580px) {
+  .testimonial .logocarte {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 576px) {
+  .testimonial .logocarte {
+    margin-left: -70%;
+    width: 20% !important;
+  }
+}
 
 /*# sourceMappingURL=app.css.map */
