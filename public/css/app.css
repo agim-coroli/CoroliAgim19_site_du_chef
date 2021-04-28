@@ -16116,11 +16116,13 @@ body .carousel-inner {
   flex-direction: column;
   justify-content: space-between;
   height: 50px;
-  margin-top: -5%;
+  margin-top: -1% !important;
 }
 .span .lesboutons button {
-  font-size: 50%;
-  border-radius: 20%;
+  font-size: 80% !important;
+  border-radius: 30px;
+  height: 50px;
+  width: 40% !important;
 }
 
 @media (min-width: 320px) and (max-width: 426px) {
